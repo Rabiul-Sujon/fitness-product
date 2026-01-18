@@ -2,16 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
+
 body{
     font-family: "Inter", sans-serif;
     background-color: black;
     color: #FFFFFF;
-
 }
 
-/* navbar section */
+/* navbar section related code */
+
 .navbar{
     /* border: 2px solid red; */
     padding: 5px;
@@ -20,8 +20,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-     
 }
+
 .navbar .logo{
     /* border: 2px solid blue; */
     font-size: 2.25rem;
@@ -35,8 +35,8 @@ body{
     gap: 47px;
     align-items: center;
     font-size: 1.1rem;
-    
 }
+
 .toggle{
     margin-right: 10px;
     display: none;
@@ -47,6 +47,114 @@ body{
     padding: 8px 20px;
     border-radius: 46px;
 }
+
+/* Banner section related code */
+
+#banner-section{
+    display: flex;
+    margin: 32px 190px 0px 190px;
+    justify-content: space-between;
+}
+
+.banner-text{
+    width: 600px;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.banner-title{
+    font-size: 5rem;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.banner-description{
+    margin-bottom: 25px;
+}
+
+.join-btn{
+    background-color: #E65336;
+    border: none;
+    border-radius: 45px;
+    padding: 16px 46px;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.download-btn{
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 45px;
+    padding: 13px 46px;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-left: 15px;
+}
+.image-box{
+    position: relative;
+}
+
+.banner-image{
+    width: 350px;
+    height: 550px;
+    object-fit: cover;
+    position: relative;
+}
+
+.tooltip{
+    position: absolute;
+    top: 125px;
+    right: -75px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 16px 24px;
+}
+.tooltip h2{
+    font-size: 2.5rem;
+    color: #FFFFFF;
+}
+.tooltip p{
+    font-size: 0.8rem;
+}
+.tooltip-2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 85px;
+    left: -75px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 10px 24px;
+}
+.play-btn{
+    position: absolute;
+    left: -50px;
+    bottom: 250px;
+}
+.tooltip-2 p{
+    font-size: 0.8rem;
+}
+.round-shape{
+    width: 30px;
+    height: 30px;
+    background-color: #E65336;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* responsive related code */
 
